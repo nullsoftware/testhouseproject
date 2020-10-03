@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     private KeyCode? _currentAction = null;
 
-    private Dictionary<KeyCode, Action> Actions { get; } // keyboard keys to actions bindings
+    private Dictionary<KeyCode, Action> Actions { get; }
       
 
     public PlayerMovement()

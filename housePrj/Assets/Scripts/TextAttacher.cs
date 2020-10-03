@@ -18,7 +18,6 @@ public class TextAttacher : MonoBehaviour
     {
         Vector3 screenPos = Camera.main.WorldToScreenPoint(AttachTarget.transform.position);
         screenPos.y += OffsetY;
-        //screenPos.x = Mathf.Min(Screen.width - (_rectTransform.sizeDelta.x / 2), screenPos.x);
 
         _rectTransform.position = screenPos;
     }
